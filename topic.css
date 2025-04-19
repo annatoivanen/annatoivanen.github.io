@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .otsikko {
+    text-align: center;
+    width: 100%;
+  }
+  .keskitetty-otsikko {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .leipateksti {
+    text-align: left;
+    width: 50%;              /* vie puolet sivun leveydestä */
+    margin-left: 0;          /* pysyy vasemmalla */
+    padding-left: 20px;      /* pieni sisennys */
+    margin-top: 20px;
+    line-height: 1.6;        /* vähän parempi luettavuus */
+  }
+  @media (max-width: 768px) {
+    .leipateksti {
+      width: 90%;
+      padding-left: 10px;
+    }
+  }

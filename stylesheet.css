@@ -7,6 +7,9 @@ body, html {
     align-items: center;
     text-align: center;
 }
+body {
+    margin-top: 140px; /* Siirtää koko sivun sisältöä alemmas */
+  }
 h1 {
     font-size: 2em;
 }
@@ -41,4 +44,8 @@ h1 {
       width: 90%;
       padding-left: 10px;
     }
+  }
+
+  div {
+    margin-bottom: 50px;
   }

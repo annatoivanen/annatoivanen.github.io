@@ -4,26 +4,33 @@
     align-items: center;
   }
   
-  .otsikko {
+  h1 {
     text-align: center;
     width: 100%;
-  }
-  .keskitetty-otsikko {
-    text-align: center;
     margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
-  .leipateksti {
+  p {
     text-align: left;
-    width: 50%;              /* vie puolet sivun leveydestä */
+    width: 40%;              /* vie puolet sivun leveydestä */
     margin-left: 0;          /* pysyy vasemmalla */
     padding-left: 20px;      /* pieni sisennys */
-    margin-top: 20px;
-    line-height: 1.6;        /* vähän parempi luettavuus */
+    margin-top: 50px;
+    line-height: 1.8;        /* vähän parempi luettavuus */
   }
-  @media (max-width: 768px) {
-    .leipateksti {
-      width: 90%;
-      padding-left: 10px;
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    nav div {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
     }
   }

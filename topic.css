@@ -41,9 +41,13 @@
     line-height: 1.8;        /* vähän parempi luettavuus */
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
     h1 {
       font-size: 24px;
+    }
+    p{
+      width: 90%;
+      padding-left: 10px;
     }
   
     nav div {

@@ -11,7 +11,7 @@ body {
     margin-top: 140px; /* Siirtää koko sivun sisältöä alemmas */
   }
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
 }
 .button-container {
@@ -23,7 +23,7 @@ h1 {
 .button-container button {
     padding: 20px 90px;
     font-size: 2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: grab;
     background-color: #9cee9d;
     color: rgb(0, 0, 0);
@@ -41,6 +41,11 @@ h1 {
     .leipateksti {
       width: 90%;
       padding-left: 10px;
+    }
+    .button-container {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
     }
   }
 

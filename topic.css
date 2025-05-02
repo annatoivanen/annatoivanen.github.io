@@ -3,12 +3,32 @@
     flex-direction: column;
     align-items: center;
   }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: grab;
+    background-color: #9cee9d;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #90f195;
+}
   
   h1 {
     text-align: center;
     width: 100%;
     margin-top: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   p {
@@ -17,7 +37,9 @@
     margin-left: 0;          /* pysyy vasemmalla */
     padding-left: 20px;      /* pieni sisennys */
     margin-top: 50px;
+    margin: 50px;
     line-height: 1.8;        /* vähän parempi luettavuus */
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   @media (max-width: 600px) {
     h1 {
@@ -33,4 +55,5 @@
       width: 100%;
       height: auto;
     }
+    
   }

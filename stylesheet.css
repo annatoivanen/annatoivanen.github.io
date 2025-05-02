@@ -10,10 +10,25 @@ body, html {
 body {
     margin-top: 140px; /* Siirtää koko sivun sisältöä alemmas */
   }
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
+    margin: 2;
 }
+
+header{
+  overflow: visible;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
 .button-container {
     display: flex;
     flex-direction: row;
@@ -38,7 +53,15 @@ h1 {
 
 
 @media (max-width: 768px) {
-    .leipateksti {
+  header{
+    overflow: visible;
+    padding: 20px;
+    text-align: center;
+  }
+    .h1{
+      font-size:24px
+    }
+    .p {
       width: 90%;
       padding-left: 10px;
     }

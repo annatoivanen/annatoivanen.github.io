@@ -1,7 +1,7 @@
 body, html{
   background-color: rgb(244, 255, 247);
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
 }
   
   .button-container {
@@ -24,7 +24,7 @@ body, html{
 .button-container button:hover {
     background-color: #90f195;
 }
-  
+
   h1 {
     text-align: center;
     width: 100%;
@@ -39,19 +39,18 @@ body, html{
     padding-left: 20px;      
     margin-top: 50px;
     margin: 50px;
-    line-height: 1.8;      
+    line-height: 2;      
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .image {
-    display: flex;
     align-items: flex-start;
     width: 35%;
     height: auto;
     border-radius: 50px;
     margin-left: auto;
     display: block;        
-    margin-right: 0;
     max-width: 100%; 
+    margin-top: -270px;
   }
   
   @media (max-width: 750px) {

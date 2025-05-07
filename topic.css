@@ -57,18 +57,26 @@ body, html{
     h1 {
       font-size: 24px;
     }
-    p{
-      width: 90%;
-      padding-left: 10px;
+    .text{
+      padding-left: 16px;
+      padding-right: 20px;
+      text-align: justify;
     }
   
     nav div {
       display: block;
       margin-bottom: 10px;
     }
-  
-    .image img {
+    
+    .image{
+      display: block;
+      gap: 10px;
+      flex-direction: column;
+      font-size: 15px;
       width: 100%;
+      margin-top: 20px;
     }
+  
+
     
   }
